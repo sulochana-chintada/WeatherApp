@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 9rem;
+    padding: 0;
+    background-image: url("https://3.bp.blogspot.com/-DTbMConmR5w/T9Yw4J93t-I/AAAAAAAAA0c/x3DZVZh_PYY/s1600/full-hd-wallpapers-1080p-1.jpg");
+}
+
+form {
+    text-align: center;
+    margin: 22px 20px;
+}
+
+#search {
+    display: solid;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFF0;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 50px;
+    width:50%;
+    text-align:center;
+}
+
+main {
+    display: solid;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+
+.weather {
+    text-align: center;
+    background-color:hsla(2, 100%, 90%, 0.9);
+    background-size: 90% 90%;
+    padding-bottom:15px;
+    margin:2px;
+    border-radius:100px;
+    width:60vw;
+    
+    margin-bottom:250px;
+
+    box-shadow: 10px 10px 10px rgba(1, 1, 1, 1);
+}
+
+h2 {
+    font-size: 10px;
+}
+
+small {
+    font-size: 25px;
+    color: #201E20;
+}
+
+p {
+    font-size: 18px;
+    margin: 2px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
